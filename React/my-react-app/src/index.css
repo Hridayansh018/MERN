@@ -13,3 +13,14 @@
   border-radius: 10px;
   max-width: 80%;
 }
+
+.student{
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.41);
+  text-align: center;
+  display: inline-block;
+}
