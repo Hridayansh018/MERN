@@ -3,6 +3,8 @@ import Footer from "./footer.jsx"
 import Card from "./card.jsx"
 import Students from "./students.jsx"
 import UserGreetings from "./greetings.jsx"
+import Btn from "./buttons.jsx"
+import ColorPicker from "./colorPicker.jsx"
 
 
 function App() {
@@ -10,11 +12,19 @@ function App() {
   return(
 
     <div>
-        <Header/>
-        <UserGreetings isloggedin={true} name="Hridayansh"/>
-        <UserGreetings isloggedin={false} name="Aman"/>
-        <Footer/>
+        <ColorPicker/>
     </div>
+    // <div>
+    //   <Btn/>
+    // </div>
+
+    // <div>
+    //     <Header/>
+    //     <UserGreetings isloggedin={true} name="Hridayansh"/>
+    //     <UserGreetings isloggedin={false} name="Aman"/>
+    //     <Footer/>
+    // </div>
+
 
     // <div>
     //   <Header/>
