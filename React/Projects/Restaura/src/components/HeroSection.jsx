@@ -17,13 +17,12 @@ function HeroSection() {
             poster={hero}
           />
         </div>
-        <div className="absolute inset-0 -z-10 h-full w-full overflow-hidden backgound-gradient-to-b from-transparent from-70% to-black">
-          <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
-            <img src={logo} alt="logo" className="h-20 w-20 object-cover p-4" />
+        <div className="absolute inset-0 -z-10 backgound-gradient-to-b from-transparent from-70% to-black"></div>
+          <div className="relative z-20 flex h-screen flex-col justify-end pb-20 ml-11">
+            <img src={logo} alt="logo" className="w-full p-4" />
             <p className="p-4 text-lg tracking-tighter text-white">Paris</p>
           </div>
-
-        </div>
+        
       </section>
     </>
   )
