@@ -2,7 +2,7 @@ import video from "../assets/hero.mp4"
 import logo from "../assets/logo.png"
 import hero from "../assets/hero.jpeg"
 
-function HeroSection() {
+const HeroSection = () => {
   return(
     <>
       <section className="relative flex items-center justify-center h-screen">
@@ -17,8 +17,8 @@ function HeroSection() {
             poster={hero}
           />
         </div>
-        <div className="absolute inset-0 -z-10 backgound-gradient-to-b from-transparent from-70% to-black"></div>
-          <div className="relative z-20 flex h-screen flex-col justify-end pb-20 ml-11">
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black"></div>
+          <div className="relative z-20 flex h-screen flex-col justify-end pb-20 ">
             <img src={logo} alt="logo" className="w-full p-4" />
             <p className="p-4 text-lg tracking-tighter text-white">Paris</p>
           </div>
