@@ -573,3 +573,7 @@ video {
   font-family: "Inter", sans-serif;
   background: #000000;
 }
+
+.hover\:opacity-80:hover{
+  opacity: 0.8;
+}
