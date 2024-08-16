@@ -556,17 +556,53 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.absolute{
+  position: absolute;
 }
 
-.font-bold{
-  font-weight: 700;
+.relative{
+  position: relative;
 }
 
-.underline{
-  text-decoration-line: underline;
+.inset-0{
+  inset: 0px;
+}
+
+.-z-20{
+  z-index: -20;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 :root{
