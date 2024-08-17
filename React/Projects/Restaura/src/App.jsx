@@ -7,6 +7,7 @@ import Mission from "./components/Mission.jsx"
 import Experties from "./components/Experties.jsx"
 import Review from "./components/Review.jsx"
 import ContatSection from "./components/ContactSection.jsx"
+import Footer from "./components/Footer.jsx"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Experties />
       <Review />
       <ContatSection />
+      <Footer />
     </main>
   )
 }
