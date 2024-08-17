@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection.jsx"
 import Navbar from "./components/Navbar.jsx"
 import Dishes from "./components/Dishes.jsx"
 import About from "./components/about.jsx"
+import Mission from "./components/Mission.jsx"
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Navbar />
       <Dishes />
       <About />
+      <Mission />
     </main>
   )
 }
