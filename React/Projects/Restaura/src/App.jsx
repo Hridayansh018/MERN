@@ -2,6 +2,7 @@ import React from "react"
 import HeroSection from "./components/HeroSection.jsx"
 import Navbar from "./components/Navbar.jsx"
 import Dishes from "./components/Dishes.jsx"
+import About from "./components/about.jsx"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <HeroSection />
       <Navbar />
       <Dishes />
+      <About />
     </main>
   )
 }
