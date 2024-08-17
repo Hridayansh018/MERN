@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar.jsx"
 import Dishes from "./components/Dishes.jsx"
 import About from "./components/about.jsx"
 import Mission from "./components/Mission.jsx"
+import Experties from "./components/Experties.jsx"
+import Review from "./components/Review.jsx"
 
 export default function App() {
   return (
@@ -13,6 +15,9 @@ export default function App() {
       <Dishes />
       <About />
       <Mission />
+      <Experties />
+      <Review />
+      
     </main>
   )
 }
