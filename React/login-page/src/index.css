@@ -1,0 +1,15 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+:root {
+  --background-image: url('assets/stacked-waves-haikei.png');
+}
+
+body {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
