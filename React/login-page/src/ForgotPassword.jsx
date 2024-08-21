@@ -12,7 +12,7 @@ const PasswordManager = () => {
         <h1 className="text-3xl text-center p-8 font-bold">Password Manager</h1>
 
         <div className="flex justify-between items-center py-3 relative">
-            <input type="name" placeholder="Enter Username" className="w-full h-10 text-white bg-transparent border-b-2 border-gray-300 appearance-none dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"/>
+            <input type="name" placeholder="Enter Email" className="w-full h-10 text-white bg-transparent border-b-2 border-gray-300 appearance-none dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"/>
         </div>
         <p htmlFor="" >Enter your Registered Email address to get Verification Link</p>
             <div className="flex items-center">
